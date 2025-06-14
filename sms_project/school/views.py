@@ -15,7 +15,7 @@ def result_view(request, student_id):
     student = get_object_or_404(Student, pk=student_id)
     return render(request, 'school/result.html', {'student': student})
 
-def create_admin_user(request):
+def create_admin_user(request): 
     if not User.objects.filter(username='admin').exists():
         User.objects.create_superuser('admin', 'admin@example.com', 'admin123')
         return HttpResponse("✅ Superuser created successfully.")
