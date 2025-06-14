@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: junnediya-sms
+    env: python
+    buildCommand: "pip install -r requirements.txt && python manage.py migrate"
+    startCommand: "gunicorn sms_project.wsgi:application"
