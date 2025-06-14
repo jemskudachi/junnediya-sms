@@ -1,9 +1,10 @@
 from pathlib import Path
 
-# Base directory of the project
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Database configuration using SQLite
+# Add this line:
+ROOT_URLCONF = 'sms_project.urls'
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
