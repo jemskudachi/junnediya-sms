@@ -54,11 +54,12 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'u346467608_jemssms',
         'USER': 'u346467608_jafar',
-        'PASSWORD': '14somJesk$',  # Your Hostinger MySQL password
-        'HOST': 'mysql.hostinger.com',  # If this doesn't work, confirm the host in phpMyAdmin
+        'PASSWORD': '14somJesk$',
+        'HOST': 'auth-db1878.hstgr.io',  # ✅ This is visible at the top of your phpMyAdmin
         'PORT': '3306',
     }
 }
+
 
 
 AUTH_PASSWORD_VALIDATORS = []
