@@ -3,4 +3,5 @@ gunicorn
 weasyprint
 pillow
 whitenoise
-mysqlclient
+mysqlclient>=2.2.0
+
