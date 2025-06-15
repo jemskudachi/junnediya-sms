@@ -6,7 +6,7 @@ SECRET_KEY = 'django-insecure-change-this-to-your-own-secret'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']  # allow render.com or localhost
+ALLOWED_HOSTS = ['*']  # allow render.com or localhost 
 
 INSTALLED_APPS = [
     'django.contrib.admin',
